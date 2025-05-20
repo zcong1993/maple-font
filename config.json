@@ -1,16 +1,15 @@
 {
-  "$schema": "./source/schema.json",
   "family_name": "Maple Mono",
   "use_hinted": true,
   "pool_size": 4,
   "ligature": true,
   "feature_freeze": {
-    "cv01": "ignore",
+    "cv01": "enable",
     "cv02": "ignore",
-    "cv03": "ignore",
+    "cv03": "enable",
     "cv04": "ignore",
     "cv05": "ignore",
-    "cv06": "ignore",
+    "cv06": "enable",
     "cv07": "ignore",
     "cv08": "ignore",
     "cv31": "ignore",
@@ -42,7 +41,7 @@
     "ss09": "ignore",
     "ss10": "ignore",
     "ss11": "ignore",
-    "zero": "ignore"
+    "zero": "enable"
   },
   "nerd_font": {
     "enable": true,
@@ -55,13 +54,13 @@
     "extra_args": []
   },
   "cn": {
-    "enable": false,
+    "enable": true,
     "with_nerd_font": true,
     "fix_meta_table": true,
     "clean_cache": false,
     "narrow": false,
     "use_hinted": false,
     "use_static_base_font": true,
-    "scale_factor": 1.0
+    "scale_factor": 1
   }
 }
